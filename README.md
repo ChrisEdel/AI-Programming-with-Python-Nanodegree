@@ -27,10 +27,10 @@ The first goal of the project was to implement to above described functionality 
 
 ### Training
 1. Checkout this repository and navigate into `image_classifier_flowers/ImageClassifier`
-2. Run `python train.py data_directory` (the script is written in such a way that the user is informed about all the steps taken (building the network, training, ...)
+2. Run `python train.py <data_directory>` (the script is written in such a way that the user is informed about all the steps taken (building the network, training, ...)
 3. To see all the possible customizations, run `python train.py --h`
 
 ### Predicting
 1. Checkout this repository and navigate into `image_classifier_flowers/ImageClassifier`
-2. Run `python predict.py /path/to/image checkpoin` (note that a valid checkpoint needs to be given)
+2. Run `python predict.py <path_to_image> <checkpoint>` (note that a valid checkpoint needs to be given)
 3. To see all the possible customizations, run `python predict.py --h`
