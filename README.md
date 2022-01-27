@@ -18,7 +18,7 @@ The second project dealt with building an image classifier almost from scratch. 
 * saving and loading checkpoints of the neural network
 * illustrating the predictions visually with the corresponding probabilities
 
-The first goal of the project was to implement to above described functionality in a Jupyter Notebook. The second goal was to build a command line application allowing the user to:
+The first goal of the project was to implement the above described functionality in a Jupyter Notebook. The second goal was to build a command line application allowing the user to:
 * choose different network architectures (`vgg13`, `vgg16`, `alexnet`)
 * customize the hyperparameters (epochs, learning_rate, hidden units)
 * use a GPU for training (if available)
@@ -27,7 +27,7 @@ The first goal of the project was to implement to above described functionality 
 
 ### Training
 1. Checkout this repository and navigate into `image_classifier_flowers/ImageClassifier`
-2. Run `python train.py <data_directory>` (the script is written in such a way that the user is informed about all the steps taken (building the network, training, ...)
+2. Run `python train.py <data_directory>` (the script is written in such a way that the user is informed about all the steps taken (building the network, training, ...))
 3. To see all the possible customizations, run `python train.py --h`
 
 ### Predicting
